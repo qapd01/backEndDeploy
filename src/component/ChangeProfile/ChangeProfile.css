@@ -1,0 +1,28 @@
+.changeProfile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+
+.ProfilePic {
+    margin-bottom: 23px;
+    width: 80%;
+}
+
+.changeProfile a {
+    color: black;
+}
+
+@media screen and (max-width: 768px) {
+
+    .changeProfile {
+        width: 50%;
+    }
+
+    .changeProfile button {
+        width: 100%;
+        margin-bottom: 32px;
+    }
+}

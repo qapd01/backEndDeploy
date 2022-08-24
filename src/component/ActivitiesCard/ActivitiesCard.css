@@ -1,0 +1,128 @@
+.ActivityCard {
+    border: 1px solid blueviolet;
+    width: 80%;
+    margin: 20px;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+
+.ActivityCard p {
+    font-size: 15px;
+    color: #414141;
+    font-weight: 400;
+    margin: 0;
+    word-wrap: break-word;
+
+
+}
+
+.ActivityCard h1 {
+    font-size: 25px;
+    font-weight: 500;
+    color: #292929;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.activity-namelable h2 {
+    font-size: 14px;
+    color: white;
+    width: 15%;
+    background: linear-gradient(180deg, #40E0D0 0%, #FF8C00 51.04%, #FF0080 100%);
+    border-radius: 20px;
+    padding: 3px;
+    text-align: center;
+}
+
+.activity-namelable {
+
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    height: 25px;
+
+
+}
+
+.freespace {
+    width: 70%;
+}
+
+
+.activitypicmain {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.activitypicmain img {
+    width: 80%
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+}
+
+footer span {
+    margin-bottom: 8px;
+}
+
+
+
+.ActivityCard h3 {
+    margin: 30px 5px 5px 0px;
+    background: linear-gradient(90deg, #1A2A6C 0%, #B21F1F 51.04%, #FDBB2D 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    /* text-fill-color: transparent; */
+}
+
+
+
+.datasection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.datasection p {
+    padding-top: 10px;
+}
+
+.display-card {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .display-card {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .display-card {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+}

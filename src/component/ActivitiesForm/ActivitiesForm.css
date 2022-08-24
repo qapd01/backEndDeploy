@@ -1,0 +1,107 @@
+.activity-form {
+    margin: 40px 0 0 0;
+
+}
+
+.fromcard {
+    width: 35%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fromcard input {
+    border: none;
+    height: 35px;
+    padding: 5px;
+}
+
+.fromcard input:focus {
+    outline: none;
+}
+
+.manualLable {
+    border: 1px solid #657285;
+    border-radius: 4px;
+    margin: 10px 0;
+    width: 75%;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.manualLable select {
+    border: none;
+}
+
+.manualLable:last-child {
+    height: 120px;
+}
+
+.lableName {
+    position: relative;
+    top: -10px;
+}
+
+label {
+    background-color: #FFFFFF;
+    color: #657285;
+    margin: 0 0 0 16px;
+    padding: 0px 5px;
+    font-size: 14px;
+    text-align: center;
+}
+
+textarea {
+    border: none;
+    resize: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+.summitCard {
+    width: 35%;
+    height: 100%;
+    margin: 10px auto 0 auto;
+    padding-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.summitCard button {
+    width: 40%;
+    height: 40px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.699);
+    background-color: white;
+    border-image: linear-gradient(45deg, purple, orange) 1;
+    box-shadow: 0px 4px 6px rgba(114, 136, 181, 0.21);
+}
+
+.summitCard button:hover {
+    background: linear-gradient(90deg, #1A2A6C 0%, #B21F1F 51.04%, #FDBB2D 100%);
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+
+/*style birthday*/
+#birthday {
+    background: url(../../assets/Icon.png);
+    background-repeat: no-repeat;
+    background-position: 99%;
+
+}
+
+#birthday::-webkit-calendar-picker-indicator {
+    opacity: 0;
+}
